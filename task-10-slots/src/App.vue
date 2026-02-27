@@ -1,9 +1,9 @@
 <script setup>
-import { ref, computed } from 'vue'
-import ChildComp from './components/ChildComp.vue'
+import { ref, computed } from "vue";
+import ChildComp from "./components/ChildComp.vue";
 
-const msg = ref('от родителя')
-const upperMsg = computed(() => msg.value.toUpperCase())
+const msg = ref("от родителя");
+const upperMsg = computed(() => msg.value.toUpperCase());
 </script>
 
 <template>
@@ -16,9 +16,7 @@ const upperMsg = computed(() => msg.value.toUpperCase())
         </label>
       </template>
 
-      <template #main>
-        Сообщение: {{ msg }}
-      </template>
+      <template #main> Сообщение: {{ msg }} </template>
 
       <template #footer>
         <p>Футер</p>
