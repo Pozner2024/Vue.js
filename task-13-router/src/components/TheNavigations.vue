@@ -1,7 +1,7 @@
 <template>
-  <main class="home container">
-    <h1>Destinations</h1>
-    <div class="destinations">
+  <div>
+    <nav id="nav">
+      <router-link id="logo" to="/">Vue Scholl Travel App</router-link>
       <router-link
         v-for="destination in destinations"
         :key="destination.id"
@@ -10,15 +10,14 @@
           params: { id: destination.id, slug: destination.slug },
         }"
       >
-        <img :src="`/images/${destination.image}`" :alt="destination.name" />
-        <h2>{{ destination.name }}</h2>
+        {{ destination.name }}
       </router-link>
-    </div>
-  </main>
+    </nav>
+  </div>
 </template>
 
 <script setup>
-import data from "../data.json";
+import data from "@/data.json";
 
 const destinations = data.destinations;
 </script>
