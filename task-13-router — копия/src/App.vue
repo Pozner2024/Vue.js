@@ -14,7 +14,7 @@ import TheNavigations from "@/components/TheNavigations.vue";
 <style lang="css">
 .slide-enter-active,
 .slide-leave-active {
-  transition: transform 0.35s ease, opacity 0.35s ease;
+  transition: opacity 1s, transform 1s;
 }
 
 .slide-enter-from,

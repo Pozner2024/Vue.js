@@ -13,20 +13,21 @@ const router = createRouter({
         ...route.params,
         id: Number(route.params.id),
       }),
-      beforeEnter: (to) => {
+      beforeEnter: (to, from, next) => {
         const id = Number(to.params.id);
         const destination = data.destinations.find((item) => item.id === id);
         if (!destination || destination.slug !== to.params.slug) {
-          return { name: "not-found" };
+          next({ name: "not-found" });
+        } else {
+          next();
         }
-        return true;
       },
       children: [
         {
           path: "experience/:experienceSlug",
           name: "experience.show",
           component: () => import("@/views/ExperiensShow.vue"),
-          props: (route) => ({ ...route.params, id: Number(route.params.id) }),
+          props: (route) => ({ ...route.params, id: route.params.id }),
         },
       ],
     },
