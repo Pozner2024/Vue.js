@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Dried Pineapple",
+    "image": "https://images.unsplash.com/photo-1490885578174-acda8905c2c6?w=400&h=300&fit=crop",
+    "price": 5
+  },
+  {
+    "name": "Pineapple Gum",
+    "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?w=400&h=300&fit=crop",
+    "price": 3
+  },
+  {
+    "name": "Fresh Mango",
+    "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?w=400&h=300&fit=crop",
+    "price": 4
+  },
+  {
+    "name": "Mango Chips",
+    "image": "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=400&h=300&fit=crop",
+    "price": 6
+  },
+  {
+    "name": "Coconut Flakes",
+    "image": "https://images.unsplash.com/photo-1580984969071-a8da5656c2fb?w=400&h=300&fit=crop",
+    "price": 4
+  },
+  {
+    "name": "Dried Banana",
+    "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400&h=300&fit=crop",
+    "price": 3
+  },
+  {
+    "name": "Strawberry Jam",
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?w=400&h=300&fit=crop",
+    "price": 7
+  },
+  {
+    "name": "Blueberry Mix",
+    "image": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?w=400&h=300&fit=crop",
+    "price": 8
+  },
+  {
+    "name": "Apple Chips",
+    "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400&h=300&fit=crop",
+    "price": 4
+  },
+  {
+    "name": "Peach Candy",
+    "image": "https://images.unsplash.com/photo-1595743825637-cdafc8ad4173?w=400&h=300&fit=crop",
+    "price": 5
+  },
+  {
+    "name": "Kiwi Slices",
+    "image": "https://images.unsplash.com/photo-1585059895524-72359e06133a?w=400&h=300&fit=crop",
+    "price": 6
+  },
+  {
+    "name": "Grape Raisins",
+    "image": "https://images.unsplash.com/photo-1537640538966-79f369143f8f?w=400&h=300&fit=crop",
+    "price": 3
+  },
+  {
+    "name": "Watermelon Candy",
+    "image": "https://images.unsplash.com/photo-1563114773-84221bd62daa?w=400&h=300&fit=crop",
+    "price": 4
+  },
+  {
+    "name": "Dried Apricot",
+    "image": "https://images.unsplash.com/photo-1596591606975-97ee5cef3a1e?w=400&h=300&fit=crop",
+    "price": 5
+  },
+  {
+    "name": "Cherry Mix",
+    "image": "https://images.unsplash.com/photo-1528821128474-27f963b062bf?w=400&h=300&fit=crop",
+    "price": 6
+  }
+]
